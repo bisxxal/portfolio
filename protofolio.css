@@ -1,6 +1,9 @@
  
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Poppins:wght@300&family=Saira:ital,wght@1,600;1,700&family=Smooch+Sans&display=swap');
  
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Poppins:wght@200;300&family=Protest+Guerrilla&family=Roboto&family=Saira:ital,wght@1,600;1,700&family=Smooch+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Poppins:wght@200;300&family=Protest+Guerrilla&family=Protest+Riot&family=Roboto&family=Saira:ital,wght@1,600;1,700&family=Smooch+Sans&display=swap');
 @font-face {
   font-family: Futura;
   src: url(Futura-Bold.ttf);
@@ -113,6 +116,8 @@ box-shadow: 0px -1px 31px -2px var(--blue);
   display: inline-block;
   background-color: transparent;
   font-size: 2vw;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
 }
  
 .mainfont {
@@ -165,7 +170,7 @@ box-shadow: 0px -1px 31px -2px var(--blue);
    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
   
 }
-
+ 
 .leftside button:active {
   box-shadow: var(--hover-shadows),
                var(--accent) 0px 0px 30px 5px;
@@ -208,14 +213,12 @@ box-shadow: 0px -1px 31px -2px var(--blue);
   left: 45vw;
   position: absolute;
   
-  font-size: 12vh;
-  /* color: var(--blue); */
-  background-color: transparent;
-
-  /* -webkit-text-stroke-width: 0.2p  x; */
-  /* -webkit-text-stroke-color:1px var(--blue); */
+  font-size: 12vh;  
+  background-color: transparent; 
   -webkit-text-stroke: 0.01px var(--blue);
   -webkit-text-fill-color: transparent;
+  font-family: "Protest Riot" ;
+ 
 }
 .hellopart img{
   width: 100%;
@@ -274,10 +277,9 @@ box-shadow: 0px -1px 31px -2px var(--blue);
  
   .hellopart h1{
     top: 0;
-    left:20%;
+    left: 25%;
     position: absolute;
-    
-    font-size: 9vh; 
+    font-size: 7vh;
   }
   .hellopart img{ 
     object-fit: cover;
@@ -419,9 +421,14 @@ overflow: hidden;
   height: 62%;
   width: 46%;
 }
+.react img {mix-blend-mode: color-burn;}
 .ht{
   width: 17%;
   object-fit: cover;
+  margin: 0 3.7vw;
+}
+.ht img{
+  width: 48%;
 }
  
                /* fotterr */
@@ -705,6 +712,7 @@ gap: 1vh;
     margin-top: 7vh;
     padding: 5vh 9vw;
   }
+ 
   .righside {
     height: 50%;
     width: 100%;

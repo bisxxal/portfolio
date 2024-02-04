@@ -277,7 +277,7 @@ function anietext() {
  
 
   t1.from(" .leftside button", {
-    y: 80,
+    // y: 80,
     opacity: 0,
     duration: 0.5,
     delay: 0,
