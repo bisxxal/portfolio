@@ -9,7 +9,7 @@ function navbar() {
   };
   
   return (
-    <div className="nav h-[60px] w-full flex fixed  items-center px-4 lg:px-10 z-[990] bg-transparent backdrop-blur-lg justify-between">
+    <div className="nav h-[60px] w-full flex fixed  items-center px-4 lg:px-10 z-[90] bg-transparent backdrop-blur-lg justify-between">
     <div className="logo pr-10 flex items-center text-[44px] ">
       <h2>B</h2><h2>I</h2><h2>S</h2><h2>H</h2><h2>A</h2><h2>L</h2><h2>.</h2> 
     </div>

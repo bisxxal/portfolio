@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar{
+  width: 0;
+}
 
 .tilt {
   transform-style: preserve-3d;

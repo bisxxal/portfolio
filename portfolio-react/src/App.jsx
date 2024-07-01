@@ -9,6 +9,7 @@ import Follow from './components/Follow'
 import Projects from './components/Projects' 
 import Fotter from './components/Fotter'
 import LocomotiveScroll from 'locomotive-scroll';
+import Loader from './components/Loader'
 
 
 function App() { 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+<Loader/>
     <div className='  bg-[#2A2438 bg-[#1e222d]   text-white  z-[20]'>
      
     <Navbar/> 
